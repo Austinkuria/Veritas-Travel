@@ -20,7 +20,7 @@ Welcome to Veritas Travels, your gateway to extraordinary travel experiences aro
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/veritas-travels.git
+    git clone https://github.com/Austinkuria/Veritas-Travels.git
     ```
 2. Navigate to the project directory:
     ```bash

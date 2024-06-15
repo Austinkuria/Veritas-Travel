@@ -1,0 +1,171 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistency of box model for all elements */
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif; /*font family for the whole body */
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align navbar items to the left and right to space between them */
+    align-items: center; /* Align navbar items horizontally and vertically */
+}
+
+/* Carousel styles */
+.carousel-item {
+    position: relative; /* Position relative for the carousel items so that we*/
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh; /* height of carousel images */
+    object-fit: cover; /* images to cover the entire carousel area */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
+    color: #fff; /* White text color for captions */
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add shadow to make the caption more readable */
+    padding: 20px; /* Padding inside the caption */
+    border-radius: 10px; /* Rounded corners of the caption */
+    width: 50%; /* Width of the caption container */
+    max-width: 400px; /* Maximum width of the caption container */
+    margin: 0 auto; /* Centers the caption horizontally */
+    max-height: 300px; /* Maximum height of the caption container */
+    height: 80%; /* Height of the caption container */
+}
+
+.carousel-caption h5 {
+    font-size: 2rem; /* Font size of the carousel caption title */
+    margin-top: 20px; /* Margin top of the caption title*/
+}
+
+.carousel-caption p {
+    font-size: 1.25rem; /*Font size for the carousel caption text*/
+    margin-top: 10px; /*Margin top for the carousel caption text*/
+}
+
+/* Responsive medium screens */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 60vh; /*height of image on medium screens */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem; /* font size of caption title on medium screens */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* font size of caption texts on medium screens */
+    }
+}
+
+/* Responsive small screens */
+@media (max-width: 576px) {
+    .carousel-item img {
+        height: 50vh; /*height of carousel image on small screens */
+    }
+
+    .carousel-caption {
+        width: 70%; /*width of the caption on small screens */
+        max-width: 100%; /*Maximum width on small screens*/
+        margin: 0 auto; /* Center the caption horizontally */
+        height: 90%; /* height of caption on small screens */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem; /* font size of caption title on small screens */
+    }
+
+    .carousel-caption p {
+        font-size: 0.875rem; /* font size of caption text on small screens */
+    }
+}
+
+/* Responsive large screens */
+@media (min-width: 992px) {
+    .carousel-item img {
+        height: 70vh; /* Height of img on large screens */
+    }
+
+    .carousel-caption {
+        width: 60%; /* width on large screens */
+        max-width: 600px; /* Maximum width for large screens */
+    }
+
+    .carousel-caption h5 {
+        font-size: 2.5rem; /*font size for large screens */
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem; /* Font size adjustment for large screens */
+        margin-top: 15px; /* Margin top adjustment for large screens */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.25rem; /*font size for navbar links on large screens */
+    }
+}
+
+/* Responsive adjustments for larger screens */
+@media (min-width: 1200px) {
+    .carousel-item img {
+        height: 70vh; /* Height of img on large screens */
+    }
+
+    .carousel-caption {
+        width: 70%; /* width of caption on large screens */
+        max-width: 800px; /* Maximum width of caption on large screens */
+    }
+
+    .carousel-caption h5 {
+        font-size: 3rem; /* font size of capption title on larger screens */
+    }
+
+    .carousel-caption p {
+        font-size: 2rem; /*font size on larger screens */
+    }
+
+    .navbar-brand {
+        font-size: 2rem; /* font size on larger screens */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.5rem; /* font size on larger screens */
+    }
+}
+
+/* Footer styles */
+footer {
+    padding: 1rem 0; /* Padding of the footer */
+}
+
+footer h3 {
+    font-size: 1.5rem; /* Font size of footer heading */
+}
+
+/* Responsive adjustments for large screens in footer */
+@media (min-width: 992px) {
+    footer h3 {
+        font-size: 1.75rem; /*font size of footer heading on large screens */
+    }
+}
+
+/* Responsive on large screens*/
+@media (min-width: 1200px) {
+    footer h3 {
+        font-size: 2rem; /* font size of footer heading on larger screens */
+    }
+}
