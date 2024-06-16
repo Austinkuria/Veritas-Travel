@@ -141,7 +141,7 @@ footer h3 {
     }
     
     .card:hover {
-        transform: scale(1.05); /* Example: Increase size on hover slightly */
+        transform: scale(1.03); /* Example: Increase size on hover slightly */
         transition: transform 0.3s ease; /* Example: Smooth transition on hover */
     }
 }
