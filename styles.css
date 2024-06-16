@@ -64,7 +64,7 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.01); /* Scale up by 1.09 on hover */
+    transform: scale(1.09); /* Scale up by 1.09 on hover */
 }
 
 .card-body {
@@ -133,6 +133,16 @@ footer h3 {
 
     .carousel-caption p {
         font-size: 1rem; /* 1rem font size */
+    }
+
+    .card {
+        max-width: 100%; /* Ensure card doesn't exceed screen width */
+        max-height: 100%; /* Ensure card doesn't exceed screen height */
+    }
+    
+    .card:hover {
+        transform: scale(1.05); /* Example: Increase size on hover slightly */
+        transition: transform 0.3s ease; /* Example: Smooth transition on hover */
     }
 }
 
