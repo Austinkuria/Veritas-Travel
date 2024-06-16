@@ -64,7 +64,7 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.09); /* Scale up by 1.09 on hover */
+    transform: scale(1.03); /* Scale up by 1.09 on hover */
 }
 
 .card-body {
